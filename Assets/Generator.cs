@@ -7,7 +7,7 @@ public class Generator : MonoBehaviour {
     private int score = 0;
 
 	void Start () {
-        InvokeRepeating("CreatePipe", 0, 2f);
+        InvokeRepeating("CreatePipe", 0.1f, 2f);
 	}
 
     void CreatePipe()
