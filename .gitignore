@@ -1,0 +1,10 @@
+*.sln
+/*.suo
+
+Temp
+Library
+obj
+*.csproj
+
+*.unityproj
+*.meta
